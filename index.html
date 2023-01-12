@@ -15,7 +15,7 @@ body {
 /* Style the header */
 header {
   background-color: #666;
-  padding: 30px;
+  padding: 5px;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -59,6 +59,22 @@ footer {
   color: white;
 }
 
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  /*background: #555;*/
+}
+
+.header h2 {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  padding: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
   section {
@@ -68,11 +84,11 @@ footer {
 }
 </style>
 </head>
-    <body style="background-color:aquamarine;">
-        <img src="logo.png" alt="picture" style="width:100px;height:100px;">
-<header>
-<h2 style="font-family:'Courier New'">Tapp Studios</h2>
-</header>
+    <body style="background-color:#666;">
+<div class="header">
+  <img src="img/logo.png"/>
+  <h2 style="font-family:'Courier New'">Tapp Studios</h2>
+</div>
 <article>
     <h1>Sub header</h1>
     <p style="font-family:'Courier New'">This is an example of a simple HTML page with one paragraph.</p>
