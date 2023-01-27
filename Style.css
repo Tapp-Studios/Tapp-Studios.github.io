@@ -12,6 +12,7 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  background-color: #666;
 }
 
 button {
@@ -111,9 +112,10 @@ footer {
   top: 10px;
   left: 10px;
   padding: 25px;
-  text-align: center;
+  text-align: left;
   font-size: 35px;
-  color: white;
+  font-family: Courier New;
+  color: black;
 }
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
