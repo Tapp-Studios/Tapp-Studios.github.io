@@ -49,6 +49,7 @@ img.avatar {
 
 .container {
   padding: 16px;
+  background-color: black;
 }
 
 span.psw {
@@ -127,6 +128,8 @@ footer {
     flex-direction: column;
   }
 }
+
+/* Handles link colors */
 a:link {
   color: black;
   background-color: transparent;
