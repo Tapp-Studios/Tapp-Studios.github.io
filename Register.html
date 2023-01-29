@@ -33,13 +33,15 @@
     fetch('Data.json')
     .then((response) => response.json())
     .then((json) => console.log(json));
-    const obj = JSON.parse(UserData);
+    const text = '{"username":"spencer", "birth":"1986-12-14", "city":"New York"}';
+
+    const obj = JSON.parse(text);
 
     function Register(){
         // Selecting the input element and get its value 
         var inputVal = document.getElementById("username").value;
         if (inputVal==obj.Username) {
-          document.getElementById("demo").innerHTML = obj.Username;
+          document.getElementById("demo").innerHTML = obj.username;
         }
         // Displaying the value
     }
