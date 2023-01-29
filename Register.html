@@ -26,8 +26,24 @@
     <button type="submit" onclick="signup">Sign Up</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
+      <p id="demo"></p>
     </label>
   </div>
+  <script>
+    fetch('Data.json')
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+    const obj = JSON.parse(UserData);
+
+    function Register(){
+        // Selecting the input element and get its value 
+        var inputVal = document.getElementById("username").value;
+        if (inputVal==obj.Username) {
+          document.getElementById("demo").innerHTML = obj.Username;
+        }
+        // Displaying the value
+    }
+  </script>
 
   <div class="container">
     <button type="button" class="cancelbtn">Cancel</button>
