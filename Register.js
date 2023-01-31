@@ -13,4 +13,4 @@ async function compareInput() {
     alert("No match found.");
   }
   
-  document.getElementById("submit").addEventListener("click", compareInput);
+document.getElementById("submit").addEventListener("click", compareInput);
