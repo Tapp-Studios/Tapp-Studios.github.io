@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="Style.css">
     <script src="Register.js"></script>
     <script>
-      alert("JS is being run");
-      const input = document.getElementById("input").value;
-      const response = await fetch("Data.json");
-      const data = await response.json();
-      alert("JS is being called");
+      window.onload = function() {
+        async function compareInput() {
+          alert("JS is being run");
+          const input = document.getElementById("input").value;
+          const response = await fetch("Data.json");
+          const data = await response.json();
+          alert("JS is being called");
+        };
+      };
     </script>
 </head>
 <body>
