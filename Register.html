@@ -6,21 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Style.css">
     <script src="Register.js"></script>
-    <script>
-      window.onload = function() {
-        async function fetching() {
-          await fetch('Data.json')
-          alert("JS is being called");
-          for (let i = 0; i < data.UserData.length; i++) {
-            if (data.UserData[i].Username === input) {
-              alert("Match found!");
-              return;
-            }
-          }
-          alert("No match found.");
-        }
-      }
-    </script>
 </head>
 <body>
 
@@ -48,7 +33,7 @@
 -->
   <div class="container">
     <input type="text" id="input">
-    <button type="button" id="submit">Compare</button>
+    <button href="Register.js" type="button" onclick="compareInput()">Compare</button>
   </div>
 </body>
 </html>
