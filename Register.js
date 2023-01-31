@@ -1,12 +1,16 @@
-fetch('./Data.json')
-    .then((response) => response.json())
-    .then((json) => console.log(json));
-
-function Register(){
-    // Selecting the input element and get its value 
-    var inputVal = document.getElementById("username").value;
-    window.alert("By");
-    
-    // Displaying the value
-
-}
+async function compareInput() {
+    const input = document.getElementById("input").value;
+    const response = await fetch("Data.json");
+    const data = await response.json();
+  
+    for (let i = 0; i < data.UserData.length; i++) {
+      if (data.UserData[i].Username === input) {
+        alert("Match found!");
+        return;
+      }
+    }
+  
+    alert("No match found.");
+  }
+  
+  document.getElementById("submit").addEventListener("click", compareInput);
