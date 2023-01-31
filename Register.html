@@ -8,8 +8,8 @@
     <script src="Register.js"></script>
     <script>
       window.onload = function() {
+        alert("JS is being run");
         function compareInput() {
-          alert("JS is being run");
           const input = document.getElementById("input").value;
           const response = fetch("Data.json");
           const data = response.json();
