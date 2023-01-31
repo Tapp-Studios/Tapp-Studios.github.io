@@ -8,20 +8,17 @@
     <script src="Register.js"></script>
     <script>
       window.onload = function() {
-        alert("JS is being run");
-        const input = document.getElementById("input").value;
-        alert("input found");
-        const response = fetch("Data.json");
-        alert("json fetched");
-        const data = response.json();
-        alert("JS is being called");
-        for (let i = 0; i < data.UserData.length; i++) {
-          if (data.UserData[i].Username === input) {
-            alert("Match found!");
-            return;
+        async function fetching() {
+          await fetch('Data.json')
+          alert("JS is being called");
+          for (let i = 0; i < data.UserData.length; i++) {
+            if (data.UserData[i].Username === input) {
+              alert("Match found!");
+              return;
+            }
           }
+          alert("No match found.");
         }
-        alert("No match found.");
       }
     </script>
 </head>
