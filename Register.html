@@ -8,11 +8,11 @@
     <script src="Register.js"></script>
     <script>
       window.onload = function() {
-        async function compareInput() {
+        function compareInput() {
           alert("JS is being run");
           const input = document.getElementById("input").value;
-          const response = await fetch("Data.json");
-          const data = await response.json();
+          const response = fetch("Data.json");
+          const data = response.json();
           alert("JS is being called");
         };
       };
