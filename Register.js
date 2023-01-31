@@ -1,4 +1,5 @@
 async function compareInput() {
+    alert("JS is being called");
     const input = document.getElementById("input").value;
     const response = await fetch("Data.json");
     const data = await response.json();
