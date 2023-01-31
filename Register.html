@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Style.css">
     <script src="Register.js"></script>
+    <script>
+      alert("JS is being run");
+      const input = document.getElementById("input").value;
+      const response = await fetch("Data.json");
+      const data = await response.json();
+      alert("JS is being called");
+    </script>
 </head>
 <body>
 
