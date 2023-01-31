@@ -2,7 +2,7 @@ async function compareInput() {
     const input = document.getElementById("input").value;
     const response = await fetch("Data.json");
     const data = await response.json();
-  
+    alert("JS is being called");
     for (let i = 0; i < data.UserData.length; i++) {
       if (data.UserData[i].Username === input) {
         alert("Match found!");
