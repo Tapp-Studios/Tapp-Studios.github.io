@@ -1,13 +1,9 @@
-let text =
-'{ "firstName":"John"},' +
-'{ "firstName":"Anna"},' +
-'{ "firstName":"Peter"}';
-const parsed = JSON.parse(text);
-alert(parsed);
+var users =["Spencer","John"]
+alert(users);
 function compareInput() {
   const input = document.getElementById("input").value;
-  for (const key in parsed){
-    if(obj.hasOwnProperty(key)){
+  for (let i = 0; i < users.length; i++){
+    if(input==users[i]){
       alert("Match found!");
     }
   }
