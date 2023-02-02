@@ -1,7 +1,7 @@
 let text =
-'{ "firstName":"John" , "lastName":"Doe" },' +
-'{ "firstName":"Anna" , "lastName":"Smith" },' +
-'{ "firstName":"Peter" , "lastName":"Jones" };
+'{ "firstName":"John"},' +
+'{ "firstName":"Anna"},' +
+'{ "firstName":"Peter"}';
 const parsed = JSON.parse(text);
 alert(parsed);
 function compareInput() {
