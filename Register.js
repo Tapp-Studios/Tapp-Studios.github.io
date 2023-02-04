@@ -1,9 +1,11 @@
-const username = "Spencer"
+var users =["Spencer","John"]
+alert(users);
+alert("It works?");
 function compareInput() {
   const input = document.getElementById("input").value;
-  if (username==input) {
-    alert("Match found!");
-  } else {
-    alert("No match found.");
+  for (let i = 0; i < users.length; i++){
+    if(input==users[i]){
+      alert("Match found!");
+    }
   }
 }
