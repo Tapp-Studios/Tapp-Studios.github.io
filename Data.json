@@ -1,21 +1,22 @@
 {
-    "users": [
-      {
-        "username": "Spencer",
-        "password": "password",
-        "extraData": {
-          "field1": "value1",
-          "field2": "value2"
+  "type": "module",    
+  "users": [
+        {
+          "username": "Spencer",
+          "password": "password",
+          "extraData": {
+            "field1": "value1",
+            "field2": "value2"
+          }
+        },
+        {
+          "username": "user2",
+          "password": "password2",
+          "extraData": {
+            "field1": "value3",
+            "field2": "value4"
+          }
         }
-      },
-      {
-        "username": "user2",
-        "password": "password2",
-        "extraData": {
-          "field1": "value3",
-          "field2": "value4"
-        }
-      }
-    ]
-  }
+      ]
+    }
   
