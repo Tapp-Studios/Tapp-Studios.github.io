@@ -1,3 +1,5 @@
+import data from './Data.json';
+console.log(data);
 var users =["Spencer","John"]
 alert(users);
 alert("It works?");
