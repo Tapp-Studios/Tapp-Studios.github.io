@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
+<!DOCTYPE html>
+<html>
 <head>
     <title>Login - Tapp Studios</title>
     <link rel="icon" type="image/x-icon" href="logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript" src="Data.json"></script>
     <script src="Register.js"></script>
 </head>
 <body>
@@ -12,25 +15,10 @@
 <div class="header">
     <h2>Tapp Studios</h2>
 </div>
-    
   <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <button type="submit" onclick="login">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
-
+    <input type="text" id="userin" autocomplete="username" pattern="[a-zA-Z0-9_-]{4,10}" placeholder="Username">
+    <input type="text" id="passin" autocomplete="username" pattern="[a-zA-Z0-9_-]{4,10}" placeholder="Password">
+    <button href="Register.js" type="button" onclick="compareInputs()">Login</button>
+</div>
 </body>
 </html>
