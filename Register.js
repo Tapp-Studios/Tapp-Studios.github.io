@@ -16,6 +16,8 @@ function compareInputs() {
                     alert("invalid username or password");
                 }
             }
+        } else {
+            alert("invalid username or password");
         }
     }
 }
