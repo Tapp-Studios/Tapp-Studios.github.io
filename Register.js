@@ -12,12 +12,8 @@ function compareInputs() {
             for (let j = 0; j < passes.length; j++){
                 if(passin==passes[i]){
                     window.location.replace("https://tapp-studios.github.io");
-                } else {
-                    alert("invalid username or password");
                 }
             }
-        } else {
-            alert("invalid username or password");
         }
     }
 }
