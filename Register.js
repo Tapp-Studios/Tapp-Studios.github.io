@@ -12,13 +12,6 @@ function compareInputs() {
         if(input==unames[i]){
             alert("Username found");
             comparepassword()
-        }
-    }
-}
-function comparepassword() {
-    for (let i = 0; i < passes.length; i++){
-        if(input==passes[i]){
-            alert("Password found");
             window.location.replace("https://tapp-studios.github.io");
         }
     }
