@@ -9,11 +9,16 @@ function compareInputs() {
     const input = document.getElementById("passin").value;
     for (let i = 0; i < unames.length; i++){
         if(input==unames[i]){
-            for (let i = 0; i < passes.length; i++){
-                if(input==passes[i]){
-                    window.location.replace("https://tapp-studios.github.io");
-                }
-            }
+            alert("Username found");
+            comparepassword()
+        }
+    }
+}
+function comparepassword() {
+    for (let i = 0; i < passes.length; i++){
+        if(input==passes[i]){
+            alert("Password found");
+            window.location.replace("https://tapp-studios.github.io");
         }
     }
 }
