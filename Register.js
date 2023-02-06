@@ -8,6 +8,7 @@ function compareInput() {
     if(input==unames[i]){
       alert("Match found!");
       window.location.replace("https://tapp-studios.github.com");
+      window.location.href = "https://tapp-studios.github.com";
     }
   }
 }
