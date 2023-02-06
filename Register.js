@@ -2,12 +2,18 @@ fetch('./data.json')
     .then((response) => response.json())
     .then((json) => console.log(json));
 var unames =["Spencer","John"]
-function compareInput() {
-  const input = document.getElementById("input").value;
+var passes =["password","example"]
+function compareInputs() {
+  const input = document.getElementById("userin").value;
+  const input = document.getElementById("passin").value;
   for (let i = 0; i < unames.length; i++){
-    if(input==unames[i]){
-      alert("Match found!");
-      window.location.replace("https://tapp-studios.github.io");
-    }
+      if(input==unames[i]){
+        window.location.replace("https://tapp-studios.github.io");
+            for (let i = 0; i < passes.length; i++){
+                if(input==passes[i]){
+                    window.location.replace("https://tapp-studios.github.io");
+                }
+            }
+      }
   }
 }
