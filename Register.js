@@ -7,7 +7,6 @@ var passes =["password","example"]
 function compareInputs() {
     alert("JS started");
     const input = document.getElementById("userin").value;
-    const input = document.getElementById("passin").value;
     for (let i = 0; i < unames.length; i++){
         if(input==unames[i]){
             alert("Username found");
