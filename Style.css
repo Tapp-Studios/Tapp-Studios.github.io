@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(73, 73, 73);
+  background-color: rgb(30,30,30);
 }
 
 input[type=text], input[type=password] {
@@ -95,14 +95,13 @@ article {
   padding: 10px;
 }
 
-/* Style the footer */
 footer {
   background-color: #777;
   padding: 20px;
   text-align: center;
   font-size: 15px;
   font-family: Courier 'Courier New', Courier, monospace;
-  color: rgb(32, 32, 32);
+  color: rgb(32, 32, 32);  
 }
 
 .header img {
