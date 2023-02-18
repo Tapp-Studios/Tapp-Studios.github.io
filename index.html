@@ -38,32 +38,32 @@
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 6</div>
-    <img src="Images/0001.jpg" style="width:90%">
+    <img src="Images/0001.jpg" style="width:100%">
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 6</div>
-    <img src="Images/0003.jpg" style="width:90%">
+    <img src="Images/0003.jpg" style="width:100%">
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 6</div>
-    <img src="Images/Canyon.jpg" style="width:80%">
+    <img src="Images/Canyon.jpg" style="width:100%">
   </div>
    
   <div class="mySlides fade">
     <div class="numbertext">4 / 6</div>
-    <img src="Images/Converse.jpg" style="width:85%">
+    <img src="Images/Converse.jpg" style="width:100%">
   </div>
     
   <div class="mySlides fade">
     <div class="numbertext">5 / 6</div>
-    <img src="Images/Space.jpg" style="width:90%">
+    <img src="Images/Space.jpg" style="width:100%">
   </div>
     
   <div class="mySlides fade">
     <div class="numbertext">6 / 6</div>
-    <img src="Images/Temple.jpg" style="width:850%">
+    <img src="Images/Temple.jpg" style="width:100%">
   </div>
 
   <!-- Next and previous buttons -->
@@ -107,6 +107,9 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000);
 }
 </script>
 <br>
