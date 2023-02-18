@@ -32,10 +32,31 @@
     <p>
     </p>
 </br>
-<br>
-    <p>
-    </p>
-</br>
+<div id="deck">
+  <div><img src="Images/0001.jpg"></div>
+  <div><img src="Images/0003.jpg" /></div>
+  <div><img src="Images/Canyon.jpg" /></div>
+  <div><img src="Images/Converse.jpg" /></div>
+  <div><img src="Images/Space.jpg" /></div>
+  <div><img src="Images/Temple.jpg" /></div>
+</div>
+
+
+// jQuery specific:
+// 1) remove elements from DOM and convert them into a native JavaScript array
+// 2) apply algorithm
+// 3) inject the array back to DOM
+
+var a = $("#deck > div").remove().toArray();
+for (var i = a.length - 1; i >= 1; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var bi = a[i];
+    var bj = a[j];
+    a[i] = bj;
+    a[j] = bi;
+}
+$("#deck").append(a);
+
 <br>
     <p>
     </p>
