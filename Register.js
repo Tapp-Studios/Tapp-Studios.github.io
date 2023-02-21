@@ -8,6 +8,7 @@ function compareInputs() {
     const input = document.getElementById("userin").value;
     const passin = document.getElementById("passin").value;
     for (let i = 0; i < unames.length; i++){
+        e=0
         if(input==unames[i]){
             for (let j = 0; j < passes.length; j++){
                 if(passin==passes[i]){
