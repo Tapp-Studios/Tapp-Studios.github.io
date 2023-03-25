@@ -127,15 +127,16 @@ button:hover {
   text-align: center;
   margin: 24px 0 12px 0;
 }
-
 img.avatar {
   width: 40%;
   border-radius: 50%;
 }
 
 .container {
-  padding: 16px;
-  background-color: #666;
+  padding: 15px;
+  float: right;
+  display: inline-block;
+  align-items: center;
 }
 
 span.psw {
@@ -145,7 +146,7 @@ span.psw {
 /* Style the header */
 header {
   background-color: #666;
-  padding: 5px;
+  padding: 0px;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -159,17 +160,28 @@ section {
 
 /* Style the navigation menu */
 nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background: #ccc;
   padding: 0px;
+  display: inline-block;  
+  float: right;
+
 }
 
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
-  padding: 0;
+  display: inline-block;
+  float: right;
+
+}
+
+ul li {
+  position: relative;
+  top: 5px;
+  left: -20;
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+
 }
 
 /* Style the content */
@@ -192,16 +204,22 @@ footer {
 
 .header img {
   float: left;
-  width: 100px;
-  height: 100px;
-  /*background: #555;*/
+  width: 50px;
+  height: 50px;
 }
-
+.container h1 {
+  position: relative;
+  top: -15px;
+  text-align: left;
+  font-size: 15px;
+  font-family: Courier, sans-serif;
+  color: white;
+}
 .header h2 {
   position: relative;
-  top: 10px;
+  top: 5px;
   left: 10px;
-  padding: 25px;
+  padding: 0px;
   text-align: left;
   font-size: 35px;
   font-family: Courier New;
