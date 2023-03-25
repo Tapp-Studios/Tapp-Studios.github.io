@@ -134,7 +134,12 @@ img.avatar {
 
 .container {
   padding: 15px;
-  float: right;
+  float: center;
+  display: inline-block;
+  align-items: center;
+}
+news {
+  float: center;
   display: inline-block;
   align-items: center;
 }
@@ -146,7 +151,6 @@ span.psw {
 /* Style the header */
 header {
   background-color: #666;
-  padding: 0px;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -160,28 +164,24 @@ section {
 
 /* Style the navigation menu */
 nav {
+  padding: 120;
   padding: 0px;
-  display: inline-block;  
   float: right;
-
 }
 
 /* Style the list inside the menu */
 nav ul {
-  list-style-type: none;
-  display: inline-block;
-  float: right;
-
-}
-
-ul li {
+  padding: 120;
   position: relative;
   top: 5px;
   left: -20;
   list-style-type: none;
-  display: inline-block;
-  float: right;
 
+}
+
+ul li {
+  padding: 120;
+  float: right;
 }
 
 /* Style the content */
@@ -211,14 +211,14 @@ footer {
   position: relative;
   top: -15px;
   text-align: left;
-  font-size: 15px;
+  font-size: 20px;
   font-family: Courier, sans-serif;
   color: white;
 }
 .header h2 {
   position: relative;
   top: 5px;
-  left: 10px;
+  left: 20px;
   padding: 0px;
   text-align: left;
   font-size: 35px;
