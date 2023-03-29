@@ -164,23 +164,20 @@ section {
 
 /* Style the navigation menu */
 nav {
-  padding: 120;
-  padding: 0px;
   float: right;
 }
 
 /* Style the list inside the menu */
 nav ul {
-  padding: 120;
   position: relative;
-  top: 5px;
+  top: 0px;
   left: -20;
   list-style-type: none;
 
 }
 
 ul li {
-  padding: 120;
+  padding: 20px;
   float: right;
 }
 
