@@ -165,6 +165,7 @@ section {
 /* Style the navigation menu */
 nav {
   /*float: right;*/
+  left: 0;
 }
 
 /* Style the list inside the menu */
