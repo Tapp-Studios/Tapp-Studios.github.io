@@ -170,7 +170,7 @@ nav {
 /* Style the list inside the menu */
 nav ul {
   position: relative;
-  top: 0px;
+  top: -50px;
   left: -20;
   list-style-type: none;
 
