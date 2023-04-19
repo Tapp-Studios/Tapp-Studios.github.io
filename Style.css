@@ -157,7 +157,7 @@ span.psw {
 /* Style the header */
 header {
   background-color: #666;
-  padding: 15px;
+  padding: 5px;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -209,7 +209,6 @@ footer {
 
 .header img {
   float: left;
-  top: -15px;
   width: 50px;
   height: 50px;
 }
