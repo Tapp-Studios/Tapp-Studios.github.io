@@ -138,12 +138,23 @@ img.avatar {
   width: 40%;
   border-radius: 20%;
 }
+img {
+  border-radius:15px;
+  width: 150px;
+  height:175px;
+  border: 0 0 2px 1px rgba(0,0,0,0)
+}
+img:hover{
+  box-shadow: 0 0 2px 1px rgba(194, 212, 218, 0.5);
+}
+
 .container {
   padding: 15px;
   float: center;
   display: inline-block;
   align-items: center;
 }
+
 news {
   float: center;
   display: inline-block;
