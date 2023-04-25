@@ -2,16 +2,10 @@
   box-sizing: border-box;
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
 }
 
 /* Next & previous buttons */
@@ -33,10 +27,6 @@
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.prev {
-  right: -1000;
   border-radius: 3px 0 0 3px;
 }
 
@@ -67,9 +57,9 @@
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -83,8 +73,15 @@
 
 /* Fading animation */
 .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 @keyframes fade {
