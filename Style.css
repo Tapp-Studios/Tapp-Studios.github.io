@@ -209,10 +209,11 @@ footer {
 
 .header img {
   float: left;
+  position: relative;
   width: 50px;
+  top:20px;
   height: 50px;
-  top:50;
-  border-radus:20%;
+  border-radius:20%;
 }
 .container h1 {
   position: relative;
@@ -224,7 +225,7 @@ footer {
 }
 .header h2 {
   position: relative;
-  top: 5px;
+  top: 0px;
   left: 30px;
   padding: 0px;
   text-align: left;
