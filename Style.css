@@ -154,17 +154,6 @@ img:hover{
   display: inline-block;
   align-items: center;
 }
-.newspic {
-  width : 8em;
-  height: auto;
-  border-radius:10%;
-  padding:0px;
-}
-.newstitle {
-  text-align:center;
-  color:white;
-  font-size: 0.8em;
-}
 news {
   float: center;
   display: inline-block;
@@ -268,6 +257,17 @@ footer {
   .container {
     padding:5px;
     margin:5px;
+  }
+    .newspic {
+      width : 7em;
+      height: auto;
+      border-radius:10%;
+      padding:0px;
+  }
+  .newstitle {
+    text-align:center;
+    color:white;
+    font-size: 0.7em;
   }
   
 }
