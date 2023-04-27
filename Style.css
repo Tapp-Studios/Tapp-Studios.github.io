@@ -154,13 +154,13 @@ img:hover{
   display: inline-block;
   align-items: center;
 }
-news {
+.news {
   float: center;
   display: inline-block;
   align-items: center;
 }
 .newspic {
-  width:300px;
+  width: 300px;
 }
 
 span.psw {
@@ -256,10 +256,10 @@ footer {
   }
   .container {
     padding:5px;
-    margin:5px;
+    margin:7px;
   }
     .newspic {
-      width : 7em;
+      width : 8em;
       height: auto;
       border-radius:10%;
       padding:0px;
@@ -267,7 +267,7 @@ footer {
   .newstitle {
     text-align:center;
     color:white;
-    font-size: 0.5em;
+    font-size: 0.6em;
   }
   
 }
