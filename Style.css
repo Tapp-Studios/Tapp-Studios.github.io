@@ -154,6 +154,11 @@ img:hover{
   display: inline-block;
   align-items: center;
 }
+news {
+  float: center;
+  display: inline-block;
+  align-items: center;
+}
 
 span.psw {
   float: right;
@@ -246,11 +251,7 @@ footer {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
-  news {
-  float: center;
-  display: inline-block;
-  align-items: center;
-  }
+
   
 }
 
