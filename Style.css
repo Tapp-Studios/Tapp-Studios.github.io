@@ -159,6 +159,9 @@ news {
   display: inline-block;
   align-items: center;
 }
+.newspic {
+  width:300px;
+}
 
 span.psw {
   float: right;
