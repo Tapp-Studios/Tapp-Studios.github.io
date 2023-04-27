@@ -154,6 +154,17 @@ img:hover{
   display: inline-block;
   align-items: center;
 }
+.newspic {
+  width : 8em;
+  height: auto;
+  border-radius:10%;
+  padding:0px;
+}
+.newstitle {
+  text-align:center;
+  color:white;
+  font-size: 0.8em;
+}
 news {
   float: center;
   display: inline-block;
@@ -253,17 +264,6 @@ footer {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
-  }
-  .newspic {
-      width : 8em;
-      height: auto;
-      border-radius:10%;
-      padding:0px;
-  }
-  .newstitle {
-    text-align:center;
-    color:white;
-    font-size: 0.8em;
   }
   .container {
     padding:5px;
