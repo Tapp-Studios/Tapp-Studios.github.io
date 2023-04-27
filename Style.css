@@ -254,7 +254,9 @@ footer {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
-
+  .newspic {
+    width:75px;
+  }
   
 }
 
