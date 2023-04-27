@@ -255,8 +255,8 @@ footer {
     flex-direction: column;
   }
   .newspic {
-    width:75px;
-    height:35;
+      width : 100px;
+      height: auto;
   }
   
 }
