@@ -155,11 +155,11 @@ img:hover{
   align-items: center;
 }
 .news {
-  float: center;
-  display: inline-block;
   align-items: center;
 }
 .newspic {
+  float:center;
+  position:relative;
   width: 300px;
 }
 
