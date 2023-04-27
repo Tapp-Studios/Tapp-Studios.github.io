@@ -265,6 +265,10 @@ footer {
     color:white;
     font-size: 10px;
   }
+  .container {
+    padding:0px;
+    margin:0px;
+  }
   
 }
 
