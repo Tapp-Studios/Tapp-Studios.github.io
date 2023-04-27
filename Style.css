@@ -155,12 +155,6 @@ img:hover{
   align-items: center;
 }
 
-news {
-  float: center;
-  display: inline-block;
-  align-items: center;
-}
-
 span.psw {
   float: right;
   padding-top: 16px;
@@ -252,6 +246,12 @@ footer {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
+  news {
+  float: center;
+  display: inline-block;
+  align-items: center;
+  }
+  
 }
 
 /* Handles link colors */
